@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+}
+header{
+  
+
+}
+.top1{
+    
+    color: white;
+    background-image: linear-gradient(to right, red , yellow);
+}
+ .top1 .col1{
+    
+    padding: 1em;
+    
+ }
+ .top1 .col1 .fa{
+    
+    padding: 10px;
+    
+ }
+ .top1 .col2{
+    float: right;
+    
+ }
+ .top1 .col2 .fa{
+    padding: 10px;  
+ }
+ .top1 .fa:hover{
+   color: black;
+ }
+ nav .control{
+    float: right;
+    padding: 1.5em;
+
+ }
+ nav .control .home{
+    color: black;
+    padding: 1em;
+    text-decoration: none;
+    }
+    nav .control .home:hover{
+        color: white;
+        padding: 1em;
+        background-color: black;
+        }
+    .manage{
+        color:blue;
+        text-shadow: 2px 3px 8px #070707;
+        
+        padding: 1em;
+        background-image: linear-gradient(to right, red ,white,green);    
+    }
+    .manage a {
+       text-decoration: none;
+    }
+    .manage a:hover{
+        font-size: small;
+        color: #070707;
+    }
+    .about{
+        padding: 1em;
+        margin-left: 2em;  
+    }
+    .about button{
+        color: aliceblue; 
+        padding: 0.5em;
+         border-radius: 2em; 
+         margin-top: 1em; 
+        background-color: blue; 
+        }
+        .about button:hover{
+            background-color: red;
+        }
+
+        .card {
+            margin-bottom: 4em;
+            float: left;
+            margin-left: 2em;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 25%;
+            height: 5%;
+          }
+          
+          .card:hover {
+            box-shadow: 2px 2px 20px 2px rgb(7, 249, 31);
+          }
+          
+          .container {
+            padding: 2px 16px;
+          }
+          .title {
+            position: relative;
+            color: #262626;
+            padding: 20px 50px;
+          }
+           
+          .title:before {
+            background: #262626;
+            color: white;
+            content: 'BHOJRAJ SINGH';
+            overflow: hidden;
+            position: absolute;  
+            top: 0;  
+            left: 0;
+            padding: 20px 50px;
+              -webkit-clip-path: polygon(0% 0% , 30% 0%, 30% 100%, 0% 100%);  
+            clip-path: polygon(0% 0% , 30% 0%, 30% 100%, 0% 100%);
+            animation: slide 4s 1s linear infinite; 
+          } 
+                     
+          @keyframes slide {      
+            50% {     
+              -webkit-clip-path: polygon(70% 0%, 100% 0%, 100% 100%, 70% 100%); 
+            } 
+          }  
+          
+          /* Unnecessary code */ 
+          
+    
+    
+  
+   
